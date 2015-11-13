@@ -6,6 +6,10 @@
 
 /* Global Styles */
 
+.color-yellow {
+  color: #FFD600;
+}
+
 html,
 body {
     width: 100%;
@@ -13,7 +17,7 @@ body {
 }
 
 body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .text-vertical-center {
@@ -34,21 +38,21 @@ body {
 
 .btn-dark {
     border-radius: 0;
-    color: #fff;
+    color: #FFD600;
     background-color: rgba(0,0,0,0.4);
 }
 
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
-    color: #fff;
+    color: #FFD600;
     background-color: rgba(0,0,0,0.7);
 }
 
 .btn-light {
     border-radius: 0;
     color: #333;
-    background-color: rgb(255,255,255);
+    background-color: #FFD600;
 }
 
 .btn-light:hover,
@@ -156,7 +160,7 @@ hr.small {
     position: relative;
     width: 100%;
     height: 100%;
-    background: url(../img/bg-02.jpg) no-repeat center center scroll;
+    background: url(../img/bg-02.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
