@@ -1,8 +1,10 @@
-.bg-image {
-   background: url("../images/cl-logo-01.png") no-repeat center center;
-   background-size : 500px;
-   position        : relative;
-   min-height      : 90vh;
+.skills {
+   background-color: $gray-lighter;
+   margin-top: 150px;
+}
+
+.logo-skills {
+   height: 100px;
 }
 
 .c-image {

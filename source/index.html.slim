@@ -1,7 +1,43 @@
 .container
-  .row
+  .row.text-center
     .col-xs-12.col-md-6.col-md-offset-3.c-image
     .col-xs-12.col-md-6.t-image
   .row
     .col-xs-12.col-md-6.col-md-offset-3.l-image
     .col-xs-12.col-md-6.y-image
+
+.skills
+  .container
+    .row
+      .text-center.padding-top
+        h2 = "Skills"
+    .row.text-center.padded
+      .col-xs-12.col-md-4
+        = image_tag "ruby.png", class: "logo-skills"
+        h3 = "Ruby"
+
+      .col-xs-12.col-md-4
+        = image_tag "rails.png", class: "logo-skills"
+        h3 = "Rails"
+
+      .col-xs-12.col-md-4
+        = image_tag "front-end.png", class: "logo-skills"
+        h3 = "Front-end"
+
+.references
+  .container
+    .row
+      .text-center.padding-top
+        h2 = "References"
+    .row.text-center.padded
+      .col-xs-12.col-md-4
+        = image_tag "ruby.png", class: "logo-skills"
+        h3 = "airgabion.com"
+
+      .col-xs-12.col-md-4
+        = image_tag "rails.png", class: "logo-skills"
+        h3 = "monea.cool"
+
+      .col-xs-12.col-md-4
+        = image_tag "front-end.png", class: "logo-skills"
+        h3 = "nomadoffice.co"
