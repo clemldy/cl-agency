@@ -31,13 +31,19 @@
         h2 = "References"
     .row.text-center.padded
       .col-xs-12.col-md-4
-        = image_tag "ruby.png", class: "logo-skills"
-        h3 = "airgabion.com"
+        = link_to "http://airgabion.com/" do
+          .card-ref
+            .card-airgabion
+            h3 = "airgabion.com"
 
       .col-xs-12.col-md-4
-        = image_tag "rails.png", class: "logo-skills"
-        h3 = "monea.cool"
+        = link_to "http://monea.cool/" do
+          .card-ref
+            .card-monea
+            h3 = "monea.cool"
 
       .col-xs-12.col-md-4
-        = image_tag "front-end.png", class: "logo-skills"
-        h3 = "nomadoffice.co"
+        = link_to "http://nomadoffice.co/" do
+          .card-ref
+            .card-nomad
+            h3 = "nomadoffice.co"
