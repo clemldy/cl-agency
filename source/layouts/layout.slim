@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title = "clement"
+    meta name="description" content="freshly web developer"
+    link rel="icon" href="../images/c-favicon.png" type="image/x-icon"
+
+    meta charset="utf-8"
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    meta http-equiv="X-UA-Compatible" content="IE=edge"
+    meta name="viewport" content="width=device-width, initial-scale=1"
+
+    = stylesheet_link_tag "all"
+    = javascript_include_tag  "all"
+
+  body class="#{page_classes}"
+
+    == partial "navbar"
+    == yield

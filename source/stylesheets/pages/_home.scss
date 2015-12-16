@@ -4,3 +4,55 @@
    position        : relative;
    min-height      : 90vh;
 }
+
+.c-image {
+   background: url('../images/c-logo-black.png') no-repeat center center;
+   background-size: 250px;
+   width: 250px;
+   height: 250px;
+   &:hover {
+      background: url('../images/c-logo-blue.png') no-repeat center center;
+      background-size: 250px;
+      width: 250px;
+      height: 250px;
+   }
+}
+
+.t-image {
+   background: url('../images/t-logo-black.png') no-repeat center center;
+   background-size: 250px;
+   width: 250px;
+   height: 250px;
+   &:hover {
+      background: url('../images/t-logo-blue.png') no-repeat center center;
+      background-size: 250px;
+      width: 250px;
+      height: 250px;
+   }
+}
+
+.l-image {
+   background: url('../images/l-logo-black.png') no-repeat center center;
+   background-size: 250px;
+   width: 250px;
+   height: 250px;
+   &:hover {
+      background: url('../images/l-logo-blue.png') no-repeat center center;
+      background-size: 250px;
+      width: 250px;
+      height: 250px;
+   }
+}
+
+.y-image {
+   background: url('../images/y-logo-black.png') no-repeat center center;
+   background-size: 250px;
+   width: 250px;
+   height: 250px;
+   &:hover {
+      background: url('../images/y-logo-blue.png') no-repeat center center;
+      background-size: 250px;
+      width: 250px;
+      height: 250px;
+   }
+}

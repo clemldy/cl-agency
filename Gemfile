@@ -23,3 +23,5 @@ gem 'font-awesome-sass', '~> 4.2.0'
 
 # CSS performance
 gem 'middleman-autoprefixer'
+
+gem "slim"
