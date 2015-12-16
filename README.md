@@ -1,2 +1,3 @@
+== README
 
-"images/cl-logo-01.png"
+images/cl-logo-01.png
