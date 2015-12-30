@@ -14,7 +14,8 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Deploy to GitHub Pages
-gem 'middleman-deploy', '~> 1.0'
+# gem 'middleman-deploy', '~> 1.0'
+gem 'middleman-gh-pages', '~> 0.0.3'
 
 # Assets
 gem 'jquery-middleman'
