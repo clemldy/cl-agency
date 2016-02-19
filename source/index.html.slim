@@ -51,21 +51,30 @@
       .text-center.padding-top
         h2 = "References"
         hr
-    .row.text-center.padded
-      .col-xs-12.col-md-4
-        = link_to "http://airgabion.com/" do
-          .card-ref data-sr="ease-in-out 10px, over 0.8s"
-            .card-airgabion
-            h3 = "airgabion.com"
 
+    .row.text-center.padding-top
       .col-xs-12.col-md-4
-        = link_to "http://monea.cool/" do
+        = link_to "http://clemldy.github.io/la_plage", :target => "_blank" do
+          .card-ref data-sr="ease-in-out 10px, over 0.8s"
+            .card-lapage
+      .col-xs-12.col-md-8
+        = link_to "http://higheredme.com/", :target => "_blank" do
+          .card-ref data-sr="ease-in-out 10px, over 1s"
+            .card-hem
+
+    .row.text-center.padding-bottom
+      .col-xs-12.col-md-4
+        = link_to "http://monea.cool/", :target => "_blank" do
           .card-ref data-sr="ease-in-out 10px, over 1s"
             .card-monea
             h3 = "monea.cool"
-
       .col-xs-12.col-md-4
-        = link_to "http://nomadoffice.co/" do
+        = link_to "http://airgabion.com/", :target => "_blank" do
+          .card-ref data-sr="ease-in-out 10px, over 0.8s"
+            .card-airgabion
+            h3 = "airgabion.com"
+      .col-xs-12.col-md-4
+        = link_to "http://nomadoffice.co/", :target => "_blank" do
           .card-ref data-sr="ease-in-out 10px, over 1.2s"
             .card-nomad
             h3 = "nomadoffice.co"
