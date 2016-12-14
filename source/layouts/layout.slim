@@ -32,10 +32,12 @@ html
     meta itemprop="image" content="= image_url(cl-logo-01.png)" /
 
     = stylesheet_link_tag "all"
-    = javascript_include_tag  "all"
+
 
   body class="#{page_classes}"
 
-    == partial "navbar"
-    == yield
-    == partial "footer"
+    = partial "shared/navbar"
+    = yield
+    = partial "shared/footer"
+    = javascript_include_tag  "all"
+    = partial 'shared/analytics'

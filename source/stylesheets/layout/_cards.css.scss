@@ -27,7 +27,7 @@
   background-size  : cover;
   height           : 200px;
   margin           : 20px auto;
- }
+}
 
 .card-monea {
   background       : url('../images/monea-screen.jpg') no-repeat center center;
@@ -36,7 +36,7 @@
   background-size  : cover;
   height           : 200px;
   margin           : 20px auto;
-  }
+}
 
 .card-nomad {
   background       : url('../images/nomad-screen.jpg') no-repeat center center;
@@ -45,22 +45,39 @@
   background-size  : cover;
   height           : 200px;
   margin           : 20px auto;
-   }
+}
 
 .card-lapage {
- background        : url('../images/laplage-screen.jpg') no-repeat center center;
- position          : relative;
- padding           : 50px;
- background-size   : cover;
- height            : 245px;
- margin            : 20px auto;
-  }
+  background        : url('../images/laplage-screen.jpg') no-repeat center center;
+  position          : relative;
+  padding           : 50px;
+  background-size   : cover;
+  height            : 245px;
+  margin            : 20px auto;
+}
 
 .card-hem {
- background        : url('../images/hem-screen.jpg') no-repeat center center;
- position          : relative;
- padding           : 50px;
- background-size   : cover;
- height            : 245px;
- margin            : 20px auto;
-  }
+  background        : url('../images/hem-screen.jpg') no-repeat center center;
+  position          : relative;
+  padding           : 50px;
+  background-size   : cover;
+  height            : 245px;
+  margin            : 20px auto;
+}
+.card-radio {
+  background-image: image-url('../images/onde-radio-logo.png');
+  background-size:  cover;
+  position:         relative;
+  height            : 245px;
+  padding           : 50px;
+  margin            : 20px auto;
+}
+
+.card-blodyn {
+  background-image: image-url('../images/blodyn-logo.png');
+  background-size:  cover;
+  position:         relative;
+  height            : 245px;
+  padding           : 50px;
+  margin            : 20px auto;
+}
