@@ -13,10 +13,29 @@
   background-color : white;
   border           : 1px solid #f1f1f1;
   border-radius    : 5px;
-  padding          : 0px 10px;
+  padding          : 0px 5px;
   margin           : 5px 0px;
+  .hover {
+    padding          : 0px 10px;
+    margin           : 5px 0px;
+    border-radius    : 5px;
+    visibility:       hidden;
+    position:         absolute;
+    top             : 0;
+    bottom          : 0;
+    left            : 2%;
+    right           : 2%;
+    z-index:          2;
+    background-color: rgba($blue, .8);
+    color: white;
+
+  }
   &:hover {
-    box-shadow     : 0 2px 5px 0 rgba(0,0,0,.26);
+    .hover{
+      opacity:    1;
+      visibility: visible;
+      transition: opacity 300s ease;
+    }
   }
 }
 
@@ -57,15 +76,16 @@
 }
 
 .card-hem {
-  background        : url('../images/hem-screen.jpg') no-repeat center center;
+  background        : url('../images/hem-screen.png') no-repeat center center;
   position          : relative;
   padding           : 50px;
   background-size   : cover;
   height            : 245px;
   margin            : 20px auto;
 }
-.card-radio {
-  background-image: image-url('../images/onde-radio-logo.png');
+
+.card-blodyn {
+  background:       url('../images/blodyn-screen.png')no-repeat center center;
   background-size:  cover;
   position:         relative;
   height            : 245px;
@@ -73,11 +93,20 @@
   margin            : 20px auto;
 }
 
-.card-blodyn {
-  background-image: image-url('../images/blodyn-logo.png');
-  background-size:  cover;
-  position:         relative;
-  height            : 245px;
+.card-lcds {
+  background        : url('../images/lcds-screen.png') no-repeat center center;
+  position          : relative;
   padding           : 50px;
+  background-size   : cover;
+  height            : 245px;
+  margin            : 20px auto;
+}
+
+.card-cataneo {
+  background        : url('../images/cataneo-screen.png') no-repeat center center;
+  position          : relative;
+  padding           : 50px;
+  background-size   : cover;
+  height            : 245px;
   margin            : 20px auto;
 }

@@ -1,11 +1,23 @@
 .footer
-  .container.socials
+  .container
     .row
-      .list-inline
-        .text-center.col-xs-4.col-md-offset-9.col-md-1
-          = link_to "https://github.com/clemldy", :target => "_blank" do
-            li.fa.fa-github
+      .col-md-6
+        p Clément Ledey
+        p Tel : 0673147863
+        p 70 ter rue du commandant charcot
+        p 69005 LYON
+      .col-md-6
+        .socials
+          .row.padding-top
+            .list-inline
+              .text-center.col-xs-4.col-md-offset-9.col-md-1
+                = link_to "https://github.com/clemldy", target: "_blank" do
+                  li.fa.fa-github
 
-        .text-center.col-xs-4.col-md-1
-          = link_to "https://www.twitter.com/cleMLdy", :target => "_blank" do
-            li.fa.fa-twitter
+              .text-center.col-xs-4.col-md-1
+                = link_to "https://www.twitter.com/cleMLdy", target: "_blank" do
+                  li.fa.fa-twitter
+
+              .text-center.col-xs-4.col-md-1
+                = link_to "https://www.linkedin.com/in/cl%C3%A9ment-ledey-91562350/", target: "_blank" do
+                  li.fa.fa-linkedin
